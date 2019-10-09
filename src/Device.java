@@ -16,9 +16,15 @@ public class Device {
     }
 
 
-    public void getInfo() {
-        System.out.println("Kod: " + code + " , producent: " + producer + " , typ: " + type + " , cena :" + price);
+    public String getInfo() {
+        return ("Kod: " + code + " , producent: " + producer + " , typ: " + type + " , cena :" + price);
     }
 
 
 }
+
+//    i zadanie 2 - metoda getInfo() wyświetla napis
+//        niczego nie zwraca
+//        w końcu zdeklarowana jest jako void
+//        a żeby było zgodnie z treścią zadania, powinniśmy zwrócić Stringa
+//        złączyć w jednego wywołania z trzech obiektów
